@@ -55,7 +55,7 @@ Retorna as taxas de câmbio mais recentes para a moeda base fornecida.
     ```
 * **Exemplo de Resposta de Erro (503 Service Unavailable - se a API externa falhar):**
     ```json
-     (O corpo pode variar, mas o status será 503)
+     
     "Serviço temporariamente indisponível ou erro ao obter cotações: [mensagem de erro]" 
     ```
 
@@ -92,7 +92,7 @@ Converte um valor de uma moeda de origem para uma moeda de destino.
     ```
 * **Exemplo de Resposta de Erro (503 Service Unavailable - se a API externa falhar durante a busca de taxas):**
     ```json
-     (O corpo pode variar, mas o status será 503)
+     
      "Serviço temporariamente indisponível ou erro ao obter cotações: [mensagem de erro]"
     ```
 
