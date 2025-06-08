@@ -1,6 +1,4 @@
-Thumbs.db  # 💱 Currency Converter - Full Stack Application 
- 
-Sistema completo de conversão de moedas com backend Spring Boot e frontend React. 
+ Sistema completo de conversão de moedas com backend Spring Boot e frontend React. 
  
 ## 🏗️ Arquitetura 
  
