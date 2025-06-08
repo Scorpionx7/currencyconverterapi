@@ -1,0 +1,33 @@
+.card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.card--elevated {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.card--bordered {
+  border: 1px solid #e5e7eb;
+}
+
+.card__header {
+  padding: 20px 24px 0;
+}
+
+.card__title {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #111827;
+}
+
+.card__content {
+  padding: 24px;
+}
+
+.card__header + .card__content {
+  padding-top: 20px;
+}
