@@ -1,0 +1,71 @@
+.conversion-result {
+  background: linear-gradient(135deg, #f0fdf4 0%, #e0f2fe 100%);
+  border: 1px solid #10b981;
+  border-radius: 12px;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.result-header {
+  font-size: 0.875rem;
+  color: #6b7280;
+  margin-bottom: 16px;
+}
+
+.result-amounts {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.amount-display {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.currency-flag {
+  font-size: 1.5rem;
+}
+
+.amount-original {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #374151;
+}
+
+.amount-converted {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #059669;
+}
+
+.equals-sign {
+  font-size: 1.125rem;
+  color: #9ca3af;
+  align-self: center;
+}
+
+.exchange-rate {
+  font-size: 0.875rem;
+  color: #6b7280;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 8px 12px;
+  border-radius: 6px;
+  margin-bottom: 16px;
+}
+
+.copy-button {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 0 auto;
+}
+
+.button-icon {
+  width: 16px;
+  height: 16px;
+}

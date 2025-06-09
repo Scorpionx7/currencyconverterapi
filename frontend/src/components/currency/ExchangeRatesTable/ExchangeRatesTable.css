@@ -1,0 +1,143 @@
+.rates-table {
+  background: white;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.rates-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.rates-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.rates-icon {
+  width: 20px;
+  height: 20px;
+  color: #10b981;
+}
+
+.rates-title h3 {
+  margin: 0;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #111827;
+}
+
+.refresh-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.refresh-icon.spinning {
+  animation: spin 1s linear infinite;
+}
+
+.last-update {
+  font-size: 0.875rem;
+  color: #6b7280;
+  margin-bottom: 16px;
+}
+
+.rates-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.rate-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  background-color: #f9fafb;
+  border-radius: 8px;
+  transition: background-color 0.2s ease;
+}
+
+.rate-item:hover {
+  background-color: #f3f4f6;
+}
+
+.currency-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.currency-flag {
+  font-size: 1.25rem;
+}
+
+.currency-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.currency-code {
+  font-weight: 600;
+  color: #111827;
+}
+
+.currency-name {
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+.rate-value {
+  text-align: right;
+}
+
+.rate-number {
+  display: block;
+  font-weight: 600;
+  color: #111827;
+}
+
+.rate-label {
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+.loading-state,
+.empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 48px 24px;
+  text-align: center;
+  color: #6b7280;
+}
+
+.spinner {
+  width: 32px;
+  height: 32px;
+  border: 3px solid #e5e7eb;
+  border-top-color: #3b82f6;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-bottom: 16px;
+}
+
+.empty-icon {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 16px;
+  opacity: 0.5;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
